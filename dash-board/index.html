@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<!-- secured with MIT licence to https://github.com/subbrat/ -->
+<title>teasepage</title>
+<meta charset="UTF-8">
+<style>
+
+</style>
+
+<body>
+
+	<!-- bottom icon end -->
+	<div class="w3-display-bottomright w3-text-grey w3-xlarge" style="padding:0px 20px">
+		<p>teasepagecounter: </p>
+		<p id="count1"></p>
+	</div>
+
+	<div class="w3-display-bottomright w3-text-grey w3-xlarge" style="padding:0px 20px">
+		<p>profileio:</p>
+		<p id="count2"></p>
+	</div>
+
+	<div class="w3-display-bottomright w3-text-grey w3-xlarge" style="padding:0px 20px">
+		<p>syllabusapkibpr:</p>
+		<p id="count3"></p>
+	</div>
+
+	<script>
+		const countEl = document.getElementById('count1');
+		updateVisitCount();
+		function updateVisitCount() {
+			fetch('https://api.countapi.xyz/get/subbrat/teasepagecounter')
+				.then(res => res.json())
+				.then(res => {
+					countEl.innerHTML = res.value;
+				})
+		}
+	</script>
+
+	<script>
+		const countE2 = document.getElementById('count2');
+		updateVisitCount();
+		function updateVisitCount() {
+			fetch('https://api.countapi.xyz/get/subbrat/profileio')
+				.then(res => res.json())
+				.then(res => {
+					countE2.innerHTML = res.value;
+				})
+		}
+	</script>
+	<script>
+		const countE3 = document.getElementById('count3');
+		updateVisitCount();
+		function updateVisitCount() {
+			fetch('https://api.countapi.xyz/get/subbrat/syllabusapkibpr')
+				.then(res => res.json())
+				.then(res => {
+					countE3.innerHTML = res.value;
+				})
+		}
+	</script>
+</body>
+
+</html>
