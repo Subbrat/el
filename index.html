@@ -51,6 +51,14 @@
 			<th>syllabusapkibpr</th>
 			<th id="count3"></th>
 		</tr>
+
+		<tr>
+			<th>writingone</th>
+			<th id="count4"></th>
+		</tr>
+		
+
+
 	</table>
 	<script>
 		const countEl = document.getElementById('count1');
@@ -83,6 +91,17 @@
 				.then(res => res.json())
 				.then(res => {
 					countE3.innerHTML = res.value;
+				})
+		}
+	</script>
+	<script>
+		const countE4 = document.getElementById('count4');
+		updateVisitCount();
+		function updateVisitCount() {
+			fetch('https://api.countapi.xyz/get/subbrat/writingone')
+				.then(res => res.json())
+				.then(res => {
+					countE4.innerHTML = res.value;
 				})
 		}
 	</script>
