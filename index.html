@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <!-- secured with MIT licence to https://github.com/subbrat/ -->
-<title>teasepage</title>
+<title>Dashboard</title>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
@@ -56,13 +56,18 @@
 			<th>writingone</th>
 			<th id="count4"></th>
 		</tr>
-		
+
+		<tr>
+			<th>wrlandingpg</th>
+			<th id="count5"></th>
+		</tr>
 
 
 	</table>
 	<script>
 		const countEl = document.getElementById('count1');
 		updateVisitCount();
+
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/teasepagecounter')
 				.then(res => res.json())
@@ -75,6 +80,7 @@
 	<script>
 		const countE2 = document.getElementById('count2');
 		updateVisitCount();
+
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/profileio')
 				.then(res => res.json())
@@ -86,6 +92,7 @@
 	<script>
 		const countE3 = document.getElementById('count3');
 		updateVisitCount();
+
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/syllabusapkibpr')
 				.then(res => res.json())
@@ -97,6 +104,7 @@
 	<script>
 		const countE4 = document.getElementById('count4');
 		updateVisitCount();
+
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/writingone')
 				.then(res => res.json())
@@ -105,7 +113,18 @@
 				})
 		}
 	</script>
+	<script>
+		const countE5 = document.getElementById('count5');
+		updateVisitCount();
 
+		function updateVisitCount() {
+			fetch('https://api.countapi.xyz/get/subbrat/wrlandingpg')
+				.then(res => res.json())
+				.then(res => {
+					countE5.innerHTML = res.value;
+				})
+		}
+	</script>
 
 </body>
 
