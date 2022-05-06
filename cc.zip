@@ -1,0 +1,21 @@
+https://api.countapi.xyz/create?namespace=subbrat&key=api&value=1
+https://api.countapi.xyz/update/subbrat/api?amount=+1
+https://api.countapi.xyz/get/subbrat/api
+
+
+<p hidden id="count"> </p>
+
+
+<script>
+        const countEl = document.getElementById('count');
+        document.getElementById("count").style.display = "none";
+        updateVisitCount();
+        function updateVisitCount() {
+            fetch('https://api.countapi.xyz/update/subbrat/profileio?amount=+1')
+                .then(res => res.json())
+                .then(res => {
+                    countEl.innerHTML = res.value;
+                })
+        }
+    </script>
+66-83,122-149,194-213,390-394,582-604
