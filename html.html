@@ -3,70 +3,23 @@
 
 <head>
 	<!-- secured with MIT licence to https://github.com/subbrat/ -->
-	<title>title here</title>
-	<link rel="shortcut icon" href="pen.png"> <!-- icon -->
 	<meta charset="UTF-8">
+	<title>title here</title>
+	<link rel="shortcut icon" href="pen.png">
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
-	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="./css/s6css.css">
+	<link rel="stylesheet" href="./css/ga.css">
+	<link rel="stylesheet" href="./css/mn.css">
 	<style>
-		body,
-		h1 {
-			font-family: "Raleway", sans-serif;
-		}
 
-		body,
-		h1,
-		h2,
-		h3,
-		h4,
-		h5 {
-			font-family: "Raleway", sans-serif
-		}
-
-		body,
-		html {
-			position: relative;
-		}
 	</style>
 </head>
 
-<!-- prevent copying  -->
-
-<body class="w3-black w3-text-orange " onmousedown="return false" onselectstart="return false">
-	<h1>hi</h1>
+<body class="s6-black s6-text-orange" onselectstart="return false">
+	<h1>DEMO XXX WW </h1>
 
 
-
-
-
-
-
-
-
-
-
-
-
-	<script type="text/javascript">
-		// prevent right click
-		document.oncontextmenu = new Function("return false");
-	</script>
-	<script>
-		const countEl = document.getElementById('count');
-		document.getElementById("count").style.display = "none";
-		updateVisitCount();
-
-		function updateVisitCount() {
-			fetch('https://api.countapi.xyz/update/subbrat/writingone?amount=+1')
-				.then(res => res.json())
-				.then(res => {
-					countEl.innerHTML = res.value;
-				})
-		}
-	</script>
+	<script src="./js/main.js"></script>
 </body>
 
 </html>

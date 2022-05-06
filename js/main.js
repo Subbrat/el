@@ -1,11 +1,7 @@
 {
 
-    // smooth slide
-    // a href = "#"
-    // class = "su6" > text </a> <
-    // script src = "su6.js" >
     document.addEventListener("DOMContentLoaded", function () {
-        var t = document.querySelector(".su6");
+        var t = document.querySelector(".6sslide");
 
         function e(n) {
             var o = window.pageYOffset,
