@@ -1,4 +1,9 @@
 /* W3.CSS 4.15 December 2020 Modified and normalised for personal and free for community use by Subbrat @ https://github.com/subbrat/ */
+
+.nod {
+    text-decoration: none;
+}
+
 html {
     box-sizing: border-box
 }
