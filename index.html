@@ -37,6 +37,10 @@
 			<th>syllabusapkibpr</th>
 			<th id="count3"></th>
 		</tr>
+		<tr>
+			<th>escapegame</th>
+			<th id="count11"></th>
+		</tr>
 	</table><br>
 	<table style="width:40%" class="txxt2">
 		<tr>
@@ -56,35 +60,9 @@
 			<th id="count6"></th>
 		</tr>
 	</table>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 	<script>
 		const countEl = document.getElementById('count1');
 		updateVisitCount();
-
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/teasepagecounter')
 				.then(res => res.json())
@@ -96,7 +74,6 @@
 	<script>
 		const countE2 = document.getElementById('count2');
 		updateVisitCount();
-
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/profileio')
 				.then(res => res.json())
@@ -108,7 +85,6 @@
 	<script>
 		const countE3 = document.getElementById('count3');
 		updateVisitCount();
-
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/syllabusapkibpr')
 				.then(res => res.json())
@@ -120,7 +96,6 @@
 	<script>
 		const countE4 = document.getElementById('count4');
 		updateVisitCount();
-
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/writingone')
 				.then(res => res.json())
@@ -132,7 +107,6 @@
 	<script>
 		const countE5 = document.getElementById('count5');
 		updateVisitCount();
-
 		function updateVisitCount() {
 			fetch('https://api.countapi.xyz/get/subbrat/wrlandingpg')
 				.then(res => res.json())
@@ -141,18 +115,17 @@
 				})
 		}
 	</script>
-	<!-- <script>
-		const countE6 = document.getElementById('count6');
+	<script>
+		const countE6 = document.getElementById('count11');
 		updateVisitCount();
-
 		function updateVisitCount() {
-			fetch('https://api.countapi.xyz/get/subbrat/wrlandingpg')
+			fetch('https://api.countapi.xyz/get/subbrat/escapegame')
 				.then(res => res.json())
 				.then(res => {
 					countE6.innerHTML = res.value;
 				})
 		}
-	</script> -->
+	</script>
 </body>
 
 </html>
