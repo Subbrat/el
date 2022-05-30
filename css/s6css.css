@@ -1138,12 +1138,27 @@ a {
 
 .s6-card,
 .s6-card-2 {
-    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12)
+    box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.15)
 }
 
 .s6-card-4,
 .s6-hover-shadow:hover {
-    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.2)
+}
+
+.s6-card-4-light,
+.s6-hover-shadow:hover {
+    box-shadow: 0 4px 10px 0 rgba(255, 255, 255, 0.8), 0 4px 20px 0 rgba(0, 0, 0, 0.2)
+}
+
+.s6-card-8,
+.s6-hover-shadow:hover {
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2), 0 8px 40px 0 rgba(0, 0, 0, 0.4)
+}
+
+.s6-card-8-light,
+.s6-hover-shadow:hover {
+    box-shadow: 0 4px 15px 0 rgba(255, 255, 255, 0.8), 0 8px 40px 0 rgba(0, 0, 0, 0.4)
 }
 
 .s6-spin {
@@ -1628,6 +1643,30 @@ a {
 .s6-hover-red:hover {
     color: #fff !important;
     background-color: #f44336 !important
+}
+
+.s6-blu,
+.s6-hover-blu:hover {
+    color: #fff !important;
+    background-color: #040720 !important
+}
+
+.s6-naja,
+.s6-hover-naja:hover {
+    color: #fff !important;
+    background-color: #FFDEAD !important
+}
+
+.s6-hul,
+.s6-hover-hul:hover {
+    color: #fff !important;
+    background-color: #993bff !important
+}
+
+.s6-hul2,
+.s6-hover-hul:hover {
+    color: #fff !important;
+    background-color: #512580 !important
 }
 
 .s6-sand,
