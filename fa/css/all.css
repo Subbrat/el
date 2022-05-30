@@ -1,6 +1,8 @@
 /* <link href="./../el/fa/css/all.css"link rel="stylesheet">
  <a href="#"><i class="fa fa-eye w3-large"></i></i></a>
  */
+@charset "UTF-8";
+
 .fa {
   font-family: var(--fa-style-family, "Font Awesome 6 Free");
   font-weight: var(--fa-style, 900);
