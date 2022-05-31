@@ -6,6 +6,7 @@ body {
     animation-fill-mode: forwards;
 }
 
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
@@ -14,13 +15,10 @@ body {
     100% {
         opacity: 1;
     }
-
 }
 
-.libu,
 li {
     list-style: none;
-
 }
 
 .txlr {
@@ -35,6 +33,7 @@ a {
     display: inline-block;
 }
 
+
 a::before,
 a::after {
     content: '';
@@ -42,6 +41,7 @@ a::after {
     width: 100%;
     left: 0;
 }
+
 
 a::before {
     background-color: #040720;
@@ -52,28 +52,12 @@ a::before {
     transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
 }
 
+
 a:hover::before {
     transform-origin: 0% 50%;
     transform: scaleX(1);
 }
 
-a:hover::after {
-    transform: translate3d(0, 0, 0);
-    color: white;
-}
-
-a span {
-    display: inline-block;
-    transition: transform .3s cubic-bezier(0.76, 0, 0.24, 1);
-}
-
-a:hover span {
-    transform: translate3d(-200%, 0, 0);
-}
-
-a:hover {
-    color: #fff !important
-}
 
 /*  */
 /* anim 2
@@ -84,7 +68,6 @@ a {
     margin: 0 -.25rem;
     transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
 }
-
 a:hover {
     color: #fff;
     box-shadow: inset 200px 0 0 0 #54b3d6;
