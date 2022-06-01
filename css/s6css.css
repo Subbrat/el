@@ -1095,6 +1095,10 @@ a {
     border-radius: 32px
 }
 
+.s6-round-c {
+    border-radius: 50%;
+}
+
 .s6-row-padding,
 .s6-row-padding>.s6-half,
 .s6-row-padding>.s6-third,
