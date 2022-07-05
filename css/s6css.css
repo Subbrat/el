@@ -14,6 +14,20 @@ html {
     position: relative;
 }
 
+body::-webkit-scrollbar {
+    width: 7px;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: rgba(255, 255, 255, 0.152);
+    border-radius: 7px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #444;
+    border-radius: 7px;
+}
+
 *,
 *:before,
 *:after {
@@ -28,6 +42,8 @@ html {
 body {
     margin: 0
 }
+
+
 
 article,
 aside,
