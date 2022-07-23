@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+
+<head>
+    <title>TimeIS</title>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="5yYMK1nE8j25ebTN6JmAXwz-pqFIjc9Y2RIuqhMJja0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords"
+        content="clock, time, realtime, clock time, watch, ghadi, ghanta, samay, IRC, timemean, wall, dj">
+    <link rel="shortcut icon" href="./ic.jpg">
+    <link rel="stylesheet" href="./../el/css/ga.css">
+    <style>
+        /* Layout */
+        body {
+            background-image: linear-gradient(55deg, rgba(208, 208, 208, 0.03) 0%, rgba(208, 208, 208, 0.03) 20%, rgba(55, 55, 55, 0.03) 20%, rgba(55, 55, 55, 0.03) 40%, rgba(81, 81, 81, 0.03) 40%, rgba(81, 81, 81, 0.03) 60%, rgba(208, 208, 208, 0.03) 60%, rgba(208, 208, 208, 0.03) 80%, rgba(191, 191, 191, 0.03) 80%, rgba(191, 191, 191, 0.03) 100%), linear-gradient(291deg, rgba(190, 190, 190, 0.02) 0%, rgba(190, 190, 190, 0.02) 14.286%, rgba(105, 105, 105, 0.02) 14.286%, rgba(105, 105, 105, 0.02) 28.572%, rgba(230, 230, 230, 0.02) 28.572%, rgba(230, 230, 230, 0.02) 42.858%, rgba(216, 216, 216, 0.02) 42.858%, rgba(216, 216, 216, 0.02) 57.144%, rgba(181, 181, 181, 0.02) 57.144%, rgba(181, 181, 181, 0.02) 71.42999999999999%, rgba(129, 129, 129, 0.02) 71.43%, rgba(129, 129, 129, 0.02) 85.71600000000001%, rgba(75, 75, 75, 0.02) 85.716%, rgba(75, 75, 75, 0.02) 100.002%), linear-gradient(32deg, rgba(212, 212, 212, 0.03) 0%, rgba(212, 212, 212, 0.03) 12.5%, rgba(223, 223, 223, 0.03) 12.5%, rgba(223, 223, 223, 0.03) 25%, rgba(11, 11, 11, 0.03) 25%, rgba(11, 11, 11, 0.03) 37.5%, rgba(86, 86, 86, 0.03) 37.5%, rgba(86, 86, 86, 0.03) 50%, rgba(106, 106, 106, 0.03) 50%, rgba(106, 106, 106, 0.03) 62.5%, rgba(220, 220, 220, 0.03) 62.5%, rgba(220, 220, 220, 0.03) 75%, rgba(91, 91, 91, 0.03) 75%, rgba(91, 91, 91, 0.03) 87.5%, rgba(216, 216, 216, 0.03) 87.5%, rgba(216, 216, 216, 0.03) 100%), linear-gradient(312deg, rgba(113, 113, 113, 0.01) 0%, rgba(113, 113, 113, 0.01) 14.286%, rgba(54, 54, 54, 0.01) 14.286%, rgba(54, 54, 54, 0.01) 28.572%, rgba(166, 166, 166, 0.01) 28.572%, rgba(166, 166, 166, 0.01) 42.858%, rgba(226, 226, 226, 0.01) 42.858%, rgba(226, 226, 226, 0.01) 57.144%, rgba(109, 109, 109, 0.01) 57.144%, rgba(109, 109, 109, 0.01) 71.42999999999999%, rgba(239, 239, 239, 0.01) 71.43%, rgba(239, 239, 239, 0.01) 85.71600000000001%, rgba(54, 54, 54, 0.01) 85.716%, rgba(54, 54, 54, 0.01) 100.002%), linear-gradient(22deg, rgba(77, 77, 77, 0.03) 0%, rgba(77, 77, 77, 0.03) 20%, rgba(235, 235, 235, 0.03) 20%, rgba(235, 235, 235, 0.03) 40%, rgba(215, 215, 215, 0.03) 40%, rgba(215, 215, 215, 0.03) 60%, rgba(181, 181, 181, 0.03) 60%, rgba(181, 181, 181, 0.03) 80%, rgba(193, 193, 193, 0.03) 80%, rgba(193, 193, 193, 0.03) 100%), linear-gradient(80deg, rgba(139, 139, 139, 0.02) 0%, rgba(139, 139, 139, 0.02) 14.286%, rgba(114, 114, 114, 0.02) 14.286%, rgba(114, 114, 114, 0.02) 28.572%, rgba(240, 240, 240, 0.02) 28.572%, rgba(240, 240, 240, 0.02) 42.858%, rgba(221, 221, 221, 0.02) 42.858%, rgba(221, 221, 221, 0.02) 57.144%, rgba(74, 74, 74, 0.02) 57.144%, rgba(74, 74, 74, 0.02) 71.42999999999999%, rgba(201, 201, 201, 0.02) 71.43%, rgba(201, 201, 201, 0.02) 85.71600000000001%, rgba(187, 187, 187, 0.02) 85.716%, rgba(187, 187, 187, 0.02) 100.002%), linear-gradient(257deg, rgba(72, 72, 72, 0.03) 0%, rgba(72, 72, 72, 0.03) 16.667%, rgba(138, 138, 138, 0.03) 16.667%, rgba(138, 138, 138, 0.03) 33.334%, rgba(54, 54, 54, 0.03) 33.334%, rgba(54, 54, 54, 0.03) 50.001000000000005%, rgba(161, 161, 161, 0.03) 50.001%, rgba(161, 161, 161, 0.03) 66.668%, rgba(17, 17, 17, 0.03) 66.668%, rgba(17, 17, 17, 0.03) 83.33500000000001%, rgba(230, 230, 230, 0.03) 83.335%, rgba(230, 230, 230, 0.03) 100.002%), linear-gradient(47deg, rgba(191, 191, 191, 0.01) 0%, rgba(191, 191, 191, 0.01) 16.667%, rgba(27, 27, 27, 0.01) 16.667%, rgba(27, 27, 27, 0.01) 33.334%, rgba(66, 66, 66, 0.01) 33.334%, rgba(66, 66, 66, 0.01) 50.001000000000005%, rgba(36, 36, 36, 0.01) 50.001%, rgba(36, 36, 36, 0.01) 66.668%, rgba(230, 230, 230, 0.01) 66.668%, rgba(230, 230, 230, 0.01) 83.33500000000001%, rgba(93, 93, 93, 0.01) 83.335%, rgba(93, 93, 93, 0.01) 100.002%), linear-gradient(90deg, #ffffff, #ffffff);
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            overflow-y: hidden;
+        }
+
+        .main {
+            display: flex;
+            padding: 2em;
+            height: 90vh;
+            justify-content: center;
+            align-items: middle;
+        }
+
+        .clockbox,
+        #clock {
+            width: 100%;
+        }
+
+        /* Clock styles */
+        .circle {
+            fill: none;
+            stroke: #404040;
+            stroke-width: 9;
+            stroke-miterlimit: 10;
+        }
+
+        .mid-circle {
+            fill: #404040;
+        }
+
+        .hour-marks {
+            fill: none;
+            stroke: #404040;
+            stroke-width: 9;
+            stroke-miterlimit: 10;
+        }
+
+        .hour-arm {
+            fill: none;
+            stroke: #404040;
+            stroke-width: 17;
+            stroke-miterlimit: 10;
+        }
+
+        .minute-arm {
+            fill: none;
+            stroke: #404040;
+            stroke-width: 11;
+            stroke-miterlimit: 10;
+        }
+
+        .second-arm {
+            fill: none;
+            stroke: #404040;
+            stroke-width: 4;
+            stroke-miterlimit: 10;
+        }
+
+        .sizing-box {
+            fill: none;
+        }
+
+        #dateAndTime {
+            color: red
+        }
+
+        #hour,
+        #minute,
+        #second {
+            transform-origin: 300px 300px;
+            transition: transform .7s ease-in-out;
+        }
+
+        #clock2 h2 {
+            position: static;
+            display: block;
+            color: #404040;
+            text-align: center;
+            margin: 10px 0;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.4em;
+            font-size: 0.8em;
+        }
+
+        #clock2 #time {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        #clock2 #time div {
+            position: relative;
+            margin: 0 5px;
+
+        }
+
+        #clock2 #time div span {
+            position: relative;
+            display: block;
+            width: 100px;
+            height: 80px;
+            background: #2196f3;
+            color: #fff;
+            font-weight: 300;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3em;
+            z-index: 10;
+            box-shadow: 0 0 0 1px rgba(0, 0, 0, .2);
+        }
+
+        #clock2 #time div span:nth-child(2) {
+            height: 30px;
+            font-size: 0.7em;
+            letter-spacing: 0.2em;
+            font-weight: 500;
+            z-index: 9;
+            box-shadow: none;
+            background: #127fd6;
+            text-transform: unset;
+        }
+
+        #clock2 #time div:last-child span {
+            background: #ff006a;
+        }
+
+        #clock2 #time div:last-child span:nth-child(2) {
+            background: #ec0062;
+        }
+    </style>
+</head>
+
+<body>
+
+
+
+    <main class="main">
+        <div class="clockbox">
+            <svg id="clock" xmlns="http://www.w3.org/2000/svg" width="600" height="600" viewBox="0 0 600 600">
+                <g id="face">
+                    <circle class="circle" cx="300" cy="300" r="253.9" />
+                    <path class="hour-marks"
+                        d="M300.5 94V61M506 300.5h32M300.5 506v33M94 300.5H60M411.3 107.8l7.9-13.8M493 190.2l13-7.4M492.1 411.4l16.5 9.5M411 492.3l8.9 15.3M189 492.3l-9.2 15.9M107.7 411L93 419.5M107.5 189.3l-17.1-9.9M188.1 108.2l-9-15.6" />
+                    <circle class="mid-circle" cx="300" cy="300" r="16.2" />
+                </g>
+                <g id="hour">
+                    <path class="hour-arm" d="M300.5 298V142" />
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9" />
+                </g>
+                <g id="minute">
+                    <path class="minute-arm" d="M300.5 298V67" />
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9" />
+                </g>
+                <g id="second">
+                    <path class="second-arm" d="M300.5 350V55" />
+                    <circle class="sizing-box" cx="300" cy="300" r="253.9" />
+                </g>
+            </svg>
+
+
+        </div>
+    </main>
+
+    <script>
+        const HOURHAND = document.querySelector("#hour");
+        const MINUTEHAND = document.querySelector("#minute");
+        const SECONDHAND = document.querySelector("#second");
+        const GETREALTIME = document.querySelector("#dateAndTime");
+        const DATEDOTAY = document.getElementById("date")
+        var HOURHAND2 = document.querySelector("#Hours");
+        var MINUTEHAND2 = document.querySelector("#Minutes");
+        var SECONDHAND2 = document.querySelector("#Seconds");
+        var date = new Date();
+        console.log(date);
+        let hr = date.getHours();
+        let min = date.getMinutes();
+        let sec = date.getSeconds();
+        console.log("Hour: " + hr + " Minute: " + min + " Second: " + sec);
+
+        let hrPosition = (hr * 360 / 12) + (min * (360 / 60) / 12);
+        let minPosition = (min * 360 / 60) + (sec * (360 / 60) / 60);
+        let secPosition = sec * 360 / 60;
+
+        function runTheClock() {
+            var date = new Date();
+            console.log(date);
+            let hr = date.getHours();
+            let min = date.getMinutes();
+            let sec = date.getSeconds();
+            let currentHour = function () {
+                let realHour = 0;
+                let realHourInPM = 0;
+                if (hr >= 13) {
+                    realHour = hr - 12;
+                    realHourInPM = `${realHour}`;
+                }
+                else {
+                    realHour = hr;
+                    realHourInPM = `${realHour}`;
+                }
+
+                return realHourInPM;
+            }
+            hrPosition = hrPosition + (3 / 360);
+            minPosition = minPosition + (6 / 60);
+            secPosition = secPosition + 6;
+
+            HOURHAND.style.transform = "rotate(" + hrPosition + "deg)";
+            MINUTEHAND.style.transform = "rotate(" + minPosition + "deg)";
+            SECONDHAND.style.transform = "rotate(" + secPosition + "deg)";
+            HOURHAND2.innerHTML = currentHour();
+            MINUTEHAND2.innerHTML = min;
+            SECONDHAND2.innerHTML = sec;
+
+        }
+
+        var interval = setInterval(runTheClock, 1000);
+    </script>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+
+<head>
+    <title>TimeIS</title>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="5yYMK1nE8j25ebTN6JmAXwz-pqFIjc9Y2RIuqhMJja0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords"
+        content="clock, time, realtime, clock time, watch, ghadi, ghanta, samay, IRC, timemean, wall, dj">
+    <link rel="shortcut icon" href="./ic.jpg">
+    <link rel="stylesheet" href="./../el/css/ga.css">
+    <style>
+        body {
+            background: black;
+            margin-top: 10%;
+        }
+
+        .clock {
+            color: #99ebff;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif, sans-serif;
+            text-align: center;
+            float: none;
+            margin: auto;
+            font-size: 280px;
+            width: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="clock" class="clock" onload="showTime()"></div>
+    <script>
+        function showTime() {
+            var date = new Date();
+            var h = date.getHours(); // 0 - 23
+            var m = date.getMinutes(); // 0 - 59
+            var s = date.getSeconds(); // 0 - 59
+            var session = "";
+            if (h == 0) {
+                h = 12;
+            }
+            if (h > 12) {
+                h = h - 12;
+                session = " ";
+            }
+            h = (h < 10) ? "0" + h : h;
+            m = (m < 10) ? "0" + m : m;
+            s = (s < 10) ? "0" + s : s;
+            var time = h + " " + m + " " + s + " " + session;
+            document.getElementById("clock").innerText = time;
+            document.getElementById("clock").textContent = time;
+            setTimeout(showTime, 1000);
+        }
+        showTime();
+    </script>
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+
+<head>
+    <title>TimeIS</title>
+    <meta charset="UTF-8">
+    <meta name="google-site-verification" content="5yYMK1nE8j25ebTN6JmAXwz-pqFIjc9Y2RIuqhMJja0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="keywords"
+        content="clock, time, realtime, clock time, watch, ghadi, ghanta, samay, IRC, timemean, wall, dj">
+    <link rel="shortcut icon" href="./ic.jpg">
+    <link rel="stylesheet" href="./../el/css/ga.css">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(#a2c9ff, rgb(255, 103, 103));
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+        }
+
+        .container {
+            font-family: Arial, Helvetica, sans-serif;
+            color: #000;
+            font-weight: bold;
+            font-size: 90px;
+            width: 550px;
+            height: 150px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .time {
+            background-color: #000;
+            height: 80%;
+            width: 170px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 90px;
+            color: #fff;
+            border-radius: 5px;
+            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
+            letter-spacing: 3px;
+        }
+
+        .colon {
+            font-weight: bolder;
+            font-size: 60px;
+            color: #fff;
+        }
+
+        @media (max-width: 500px) {
+            html {
+                font-size: 80%;
+            }
+
+            .container {
+                margin: 0 10px;
+            }
+
+            .time {
+                height: 60%;
+                width: 100px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <span id="hours" class="time">00</span>
+        <span class="colon"></span>
+        <span id="minutes" class="time">00</span>
+        <span class="colon"></span>
+        <span id="seconds" class="time">00</span>
+    </div>
+    <script>
+        function displayTime() {
+            var dateTime = new Date();
+            var hrs = dateTime.getHours();
+            var mins = dateTime.getMinutes();
+            var secs = dateTime.getSeconds();
+            if (hrs < 10) {
+                hrs = '0' + hrs;
+            }
+            if (mins < 10) {
+                mins = '0' + mins;
+            }
+            if (secs < 10) {
+                secs = '0' + secs;
+            }
+            document.getElementById('hours').innerHTML = hrs;
+            document.getElementById('minutes').innerHTML = mins;
+            document.getElementById('seconds').innerHTML = secs;
+        }
+        setInterval(displayTime, 10);
+    </script>
+</body>
+
+</html>
