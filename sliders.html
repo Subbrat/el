@@ -1,0 +1,124 @@
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    @keyframes fade {
+        from {
+            opacity: 0.4;
+        }
+
+        to {
+            opacity: 1;
+        }
+    }
+
+    #slider {
+        margin: 0 auto;
+        width: 80%;
+        overflow: hidden;
+    }
+
+    .slides {
+        overflow: hidden;
+        animation-name: fade;
+        animation-duration: 1s;
+        display: none;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    #dot {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .dot {
+        display: inline-block;
+        border-radius: 50%;
+        background: #d3d3d3;
+        padding: 8px;
+        margin: 10px 5px;
+    }
+
+    .active {
+        background: black;
+    }
+
+    @media (max-width:567px) {
+        #slider {
+            width: 100%;
+
+        }
+    }
+
+    #heading {
+        display: block;
+        text-align: center;
+        font-size: 2em;
+        margin: 10px 0px;
+
+    }
+</style>
+<div id="slider" class="s6-hide-large s6-hide-medium">
+    <div class="slides">
+        <img src="https://hhsbanner.com/wp-content/uploads/2019/03/victoria_falls-900x300.jpg" width="100%" />
+    </div>
+
+    <div class="slides">
+        <img src="https://blog.cognifit.com/wp-content/uploads/2019/11/hiking-900x300.jpg" width="100%" />
+    </div>
+
+    <div class="slides">
+        <img src="https://travelfree.info/wp-content/uploads/2018/02/croatia-waterfall-in-deep-forest-of-Cr-12755165-900x300.jpg"
+            width="100%" />
+    </div>
+
+    <div class="slides">
+        <img src="https://www.piemonturismo.it/site/wp-content/uploads/2014/07/13-laghi-grande.jpg" width="100%" />
+    </div>
+
+    <div class="slides">
+        <img src="https://improvephotography.com/wp-content/uploads/2017/09/Julian-Baird-20170914-3-900px.jpg"
+            width="100%" />
+    </div>
+
+    <div hidden id="dot"><span class="dot"></span><span class="dot"></span><span class="dot"></span><span
+            class="dot"></span><span class="dot"></span></div>
+</div>
+
+<script>
+    var index = 0;
+    var slides = document.querySelectorAll(".slides");
+    var dot = document.querySelectorAll(".dot");
+
+    function changeSlide() {
+
+        if (index < 0) {
+            index = slides.length - 1;
+        }
+
+        if (index > slides.length - 1) {
+            index = 0;
+        }
+
+        for (let i = 0; i < slides.length; i++) {
+            slides[i].style.display = "none";
+            dot[i].classList.remove("active");
+        }
+
+        slides[index].style.display = "block";
+        dot[index].classList.add("active");
+
+        index++;
+
+        setTimeout(changeSlide, 2000);
+
+    }
+
+    changeSlide();
+</script>

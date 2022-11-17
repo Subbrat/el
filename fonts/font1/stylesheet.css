@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Uncracked Free Trial';
+    src: url('UncrackedFreeTrial.woff2') format('woff2'),
+        url('UncrackedFreeTrial.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
