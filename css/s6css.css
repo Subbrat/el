@@ -75,9 +75,12 @@
  }
 
  b,
- strong {
+ strong, {
      font-weight: bolder
  }
+.s-bold{
+ font-weight:bold;
+}
 
  dfn {
      font-style: italic
