@@ -1,0 +1,198 @@
+{
+  "workbench.settings.editor": "json",
+  "workbench.startupEditor": "none",
+  "editor.formatOnSave": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "files.autoSave": "onFocusChange",
+  "debug.terminal.clearBeforeReusing": true,
+  "code-runner.runInTerminal": true,
+  "C_Cpp.clang_format_style": "{BasedOnStyle: Google, BreakBeforeBraces: Attach}",
+  "editor.guides.indentation": false,
+  "editor.guides.bracketPairs": false,
+  "search.showLineNumbers": true,
+  "explorer.confirmDelete": false,
+  // cpp
+  "code-runner.executorMap": {
+    "c": "cls && cd $dir && gcc $fileName -o out && ./out && rm out.exe",
+    "cpp": "cls && cd $dir && g++ $fileName -o l && ./l",
+    // "cpp": "cls && cd $dir && g++ $fileName -o out && ./out && rm out.exe"
+  },
+  "code-runner.saveFileBeforeRun": true,
+  "code-runner.showRunIconInEditorTitleMenu": false,
+  "blockman.n01LineHeight": 0,
+  "files.trimTrailingWhitespace": true,
+  "workbench.colorCustomizations": {
+    "editor.lineHighlightBackground": "#1073cf2d",
+    "editor.lineHighlightBorder": "#9fced11f"
+  },
+  "blockman.n03MaxDepth": 6,
+  "blockman.n04ColorComboPreset": "Lobelia (Gradients)",
+  "blockman.n04Sub03ColorComboPresetForHighContrastTheme": "Classic Dark 1 (Solid colors)",
+  "editor.tabCompletion": "on",
+  "editor.wordBasedSuggestionsMode": "allDocuments",
+  "code-runner.temporaryFileName": "test",
+  "security.workspace.trust.untrustedFiles": "open",
+  // "files.defaultLanguage": "cpp", // new file is cpp bydefault
+  "C_Cpp.debugShortcut": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "platformio-ide.buildTask": "",
+  "browser-preview.startUrl": "localhost/phpt/",
+  "textmarker.autoSelectDistinctiveTextColor": true,
+  "highlight.regexes": {
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *TODO(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#ffcc00",
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#ffcc00",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:FIXME|FIX|BUG|UGLY|DEBUG|HACK)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc0000",
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc0000",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:REVIEW|OPTIMIZE|TSC)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#00ccff",
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#00ccff",
+          "color": "#1f1f1f"
+        }
+      ]
+    },
+    "((?:<!-- *)?(?:#|// @|//|./\\*+|<!--|--|\\* @|{!|{{!--|{{!) *(?:IDEA)(?:\\s*\\([^)]+\\))?:?)((?!\\w)(?: *-->| *\\*/| *!}| *--}}| *}}|(?= *(?:[^:]//|/\\*+|<!--|@|--|{!|{{!--|{{!))|(?: +[^\\n@]*?)(?= *(?:[^:]//|/\\*+|<!--|@|--(?!>)|{!|{{!--|{{!))|(?: +[^@\\n]+)?))": {
+      "filterFileRegex": ".*(?<!CHANGELOG.md)$",
+      "decorations": [
+        {
+          "overviewRulerColor": "#cc00cc",
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f",
+          "fontWeight": "bold"
+        },
+        {
+          "backgroundColor": "#cc00cc",
+          "color": "#1f1f1f"
+        }
+      ]
+    }
+  },
+  "explorer.confirmDragAndDrop": false,
+  // "workbench.editor.untitled.hint": "hidden", // the intro
+  // html
+  // "browser-preview.startUrl": "file:///C:/Users/Subbrat/Documents/GitHub/",
+  // "editor.defaultFormatter": "DEVSENSE.phptools-vscode",
+  "html.suggest.html5": true,
+  "html.validate.scripts": true,
+  "html.validate.styles": true,
+  "[html]": {
+    "editor.foldingStrategy": "indentation"
+  },
+  "php.suggest.basic": false,
+  "php.validate.enable": false,
+  "emmet.excludeLanguages": [
+    "markdown",
+    "php"
+  ],
+  "editor.defaultFormatter": "vscode.html-language-features",
+  "editor.inlineSuggest.enabled": true,
+  "platformio.enableTelemetry": false,
+  "platformio.autoUpdateIncludes": false,
+  "platformio-ide.customPATH": "file:///C:/Users/Subbrat/Documents/GitHub/ard_ii",
+  "platformio.showHelpInfo": false,
+  "platformio-ide.activateProjectOnTextEditorChange": true,
+  "platformio-ide.autoCloseSerialMonitor": false,
+  "platformio-ide.toolbar": [
+
+    {
+      "text": "$(home)",
+      "tooltip": "PlatformIO: Home",
+      "commands": "platformio-ide.showHome"
+    },
+    {
+      "text": "$(check)",
+      "tooltip": "PlatformIO: Build",
+      "commands": "platformio-ide.build"
+    },
+    {
+      "text": "$(arrow-right)",
+      "tooltip": "PlatformIO: Upload",
+      "commands": "platformio-ide.upload"
+    },
+    {
+      "text": "$(trashcan)",
+      "tooltip": "PlatformIO: Clean",
+      "commands": "platformio-ide.clean"
+    },
+    {
+      "text": "$(beaker)",
+      "tooltip": "PlatformIO: Test",
+      "commands": "platformio-ide.test"
+    },
+    {
+      "text": "$(plug)",
+      "tooltip": "PlatformIO: Serial Monitor",
+      "commands": "platformio-ide.serialMonitor"
+    },
+    {
+      "text": "$(terminal)",
+      "tooltip": "PlatformIO: New Terminal",
+      "commands": "platformio-ide.newTerminal"
+    }
+  ],
+  //deleting duplicate value : replace {expression method} "^(.*)(\n\1)+$" by "$1"
+    "workbench.colorCustomizations": {
+    "statusBar.background" : "#000",
+    "statusBar.foreground" : "#fff",
+    "statusBar.noFolderBackground" : "#fff",
+    "statusBar.debuggingBackground": "#fff",
+},
+"editor.minimap.enabled": false,
+"[css]": {
+  "editor.defaultFormatter": "vscode.css-language-features"
+},
+"remove-empty-lines.onSaveReason": {
+  "afterDelay": true
+},
+"remove-empty-lines.runOnSave": true,
+"git.enableSmartCommit": true,
+"[php]": {
+  "editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+},
+"git.autofetch": true,
+"git.confirmSync": false,
+"remoteHub.commitDirectlyWarning": "off",
+"extensions.autoUpdate": false,
+"[javascript]": {
+  "editor.defaultFormatter": "vscode.typescript-language-features"
+},
+"git.openRepositoryInParentFolders": "never",
+"workbench.statusBar.visible": false,
+"trailing-spaces.trimOnSave": true,
+"workbench.activityBar.visible": false
+
+}
